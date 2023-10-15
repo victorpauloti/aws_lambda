@@ -7,7 +7,7 @@ export const handler = async (event) => {
 
     return {
         statusCode: 200,
-        body: '<html><body><p>Dados da requisicao ${JSON.stringify(event)}</p></body></html>',
+        body: `<html><body> Dados da requisicao ${JSON.stringify(event)} </body></html>`,
         headers: {
             'Content-Type': 'text/html'
         }
